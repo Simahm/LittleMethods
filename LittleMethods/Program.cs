@@ -27,17 +27,17 @@ namespace LittleMethods
             Console.ReadKey();
         }
 
-        static int LægSammen(int a, int b)
+        private int LægSammen(int a, int b)
         {
             return a + b;
         }
 
-        static double BeregnAreal(double radius)
+        private double BeregnAreal(double radius)
         {
             return (radius * radius) * Math.PI;
         }
 
-        static double Gennemsnit(int[] lønninger)
+        private double Gennemsnit(int[] lønninger)
         {
             int total = 0;
             for (int i = 0; i < lønninger.Length; i++)
@@ -47,7 +47,7 @@ namespace LittleMethods
             return total / lønninger.Length;
         }
 
-        static void Udskriv()
+        private void Udskriv()
         {
             Console.WriteLine();
         }
